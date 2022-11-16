@@ -1,0 +1,144 @@
+/* Selector{
+    Property: value;
+}*/
+html{
+    background-color: beige;
+    background-image: url(https://i.pinimg.com/564x/30/e1/3b/30e13bd2b02b5739a4ba1a91382ce456.jpg);
+    background-size: cover;
+}
+.logo{
+    color: lightblue;
+    font-family: fantasy;
+    font-size: 30px;
+}
+.navbar{
+    background-color: var(--primary-color);
+    color: white;
+    height: 70px;
+}
+
+
+.navbar a{
+     color:white;
+    padding: 10px;
+    margin: 0 5px;
+    
+}
+.navbar a:hover{
+    border-bottom: 1px white solid ;
+    transform: scale(1.07);
+}
+.navbar a{
+    color:white;
+   padding: 10px;
+   margin: 0 0;
+   
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        margin: -11px;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: whitesmoke;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 100;
+        max-width: 160px;
+        border: transparent;
+        border-radius: 4px;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 7px 12px;
+        text-decoration: none;
+        display: block;  
+      }
+      
+      .dropdown-content a:hover {background-color: grey;
+    border-radius: 4px;
+    }
+      
+      .dropdown:hover .dropdown-content {display: block;
+        transform: scale(1.07);}
+      
+      .dropdown:hover .dropbtn {background-color: none;
+        transform: scale(1.07);}
+    
+    .dropbtn {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 2px;
+        font-family: 'lato';
+        text-decoration: none;
+      }
+      h1{
+        text-align: center;
+         font-size: 50px;
+         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+         color:black;
+      }
+      h3{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 15px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      }
+      h2{
+        text-align: center;
+        color: black;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+      }
+      b{
+        text-align: center;
+      }
+      .btn{
+        display: inline-block;
+        padding: 10px 30px;
+        cursor: pointer;
+        background-color: transparent;
+        color:white ;
+        border-radius: 5px;
+        border: none;
+    }
+    .btn-outline{
+        background-color:transparent;
+        border: 1px white solid;
+        padding:5px 15px ; 
+    }
+    .btn:hover{
+        transform: scale(1.1);
+    }
+    /*Backgrounds and colored buttons*/
+    .bg-primary,
+    .btn-primary{
+        background-color: lightskyblue;
+        color: white;
+    }
+    .bg-secondary,
+    .btn-secondary{
+        background-color: var(--secondary-color);
+        color: white;
+    }
+    .bg-dark,
+    .btn-dark{
+        background-color: var(--dark-color);
+        color: white;
+    }
+    .bg-light,
+    .btn-light{
+        background-color: var(--light-color);
+        color: black;
+    }
